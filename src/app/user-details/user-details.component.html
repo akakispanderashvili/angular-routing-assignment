@@ -1,0 +1,12 @@
+<div class="customer-details">
+  <div class="card" *ngIf="customer">
+    <div class="card-header">
+      <h2>{{ customer.username }} Details</h2>
+    </div>
+    <div class="card-body">
+      <div><span>First Name: </span>{{ customer.firstName }}</div>
+      <div><span>Last Name: </span>{{ customer.lastName }}</div>
+      <div><span>About Me: </span>{{ customer.aboutMe }}</div>
+    </div>
+  </div>
+</div>

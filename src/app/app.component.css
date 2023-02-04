@@ -1,0 +1,29 @@
+.button {
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.button:hover {
+  background-color: darkblue;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.active {
+  background-color: blue;
+}
+.invisible {
+  display: none;
+}

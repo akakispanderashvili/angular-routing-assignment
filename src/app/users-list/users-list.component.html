@@ -1,0 +1,14 @@
+<div class="customers-list">
+  <table>
+    <tr>
+      <th>Username</th>
+    </tr>
+    <tr *ngFor="let customer of customers">
+      <td>
+        <a [routerLink]="['/user-details/' + customer.id]">
+          {{ customer.username }}</a
+        >
+      </td>
+    </tr>
+  </table>
+</div>
